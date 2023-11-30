@@ -14,4 +14,14 @@ int main(void)
     else if (Fizz == 0 && i != 0)
     {
       printf("Fizz: %d\n", i);
+    } else if (Buzz == 0 && i != 0)
+    {
+      printf("Buzz: %d\n", i);
     }
+    else
+    {
+      printf("i: %d\n", i);
+    }
+  }
+  return 0;
+}
