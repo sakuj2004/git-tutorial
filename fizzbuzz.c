@@ -7,6 +7,7 @@ int main(void)
     int FizzBuzz = i % 15;
     int Fizz = i % 3;
     int Buzz = i % 5;
+    int git = i % 7;
     if (FizzBuzz == 0 && i != 0)
     {
       printf("FizzBuzz: %d\n", i);
@@ -17,6 +18,10 @@ int main(void)
     } else if (Buzz == 0 && i != 0)
     {
       printf("Buzz: %d\n", i);
+    }
+    else if (git==0&&i!=0)
+    {
+      printf("git: %d\n",i);
     }
     else
     {
